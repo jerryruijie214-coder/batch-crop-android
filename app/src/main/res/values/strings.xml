@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">批量裁剪</string>
+
+    <!-- 首页 -->
+    <string name="hero_title">多图一键裁剪</string>
+    <string name="hero_subtitle">一次选多张同规格图片，定义一套裁剪区域，全部批量生成</string>
+    <string name="section_images">已选图片</string>
+    <string name="empty_hint">还没有选择图片\n支持一次选择多张</string>
+    <string name="pick_images">选择图片</string>
+    <string name="clear_all">清空</string>
+    <string name="section_count">每张图片裁成</string>
+    <string name="section_count_sub">可裁成 1 – 9 份</string>
+    <string name="count_unit">份</string>
+    <string name="tip_batch">所有图片都会按比例套用同一套裁剪区域，结果保存到相册「批量裁剪」文件夹。</string>
+    <string name="next_step">下一步：设置裁剪区域</string>
+    <string name="image_count">%1$d 张</string>
+
+    <!-- 裁剪页 -->
+    <string name="crop_title">设置裁剪区域</string>
+    <string name="crop_hint">拖动四角调整第 %1$d / %2$d 个区域 · 双指缩放图片</string>
+    <string name="prev_region">上一张</string>
+    <string name="next_region">下一张</string>
+    <string name="start_crop">开始裁剪</string>
+    <string name="size_badge">%1$d × %2$d px</string>
+    <string name="loading_image">正在加载图片…</string>
+    <string name="decode_failed">图片加载失败</string>
+
+    <!-- 进度 -->
+    <string name="cropping_title">正在批量裁剪…</string>
+    <string name="cropping_detail">%1$d / %2$d</string>
+
+    <!-- 结果页 -->
+    <string name="result_title">裁剪完成</string>
+    <string name="result_summary">已生成 %1$d 张图片</string>
+    <string name="result_detail">共处理 %1$d 张原图 · 失败 %2$d 处</string>
+    <string name="result_saved_to">已保存到相册「批量裁剪」文件夹</string>
+    <string name="result_done">完成</string>
+
+    <!-- 提示 -->
+    <string name="storage_denied">需要存储权限才能保存图片</string>
+    <string name="no_images">请先选择图片</string>
+</resources>
