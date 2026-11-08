@@ -35,10 +35,10 @@ android {
             includeAndroidResources = true
             returnDefaultValues = true
             all {
-                def localDeps = file('/root/robolectric-deps')
-                if (localDeps.exists()) {
+                def localDeps = System.getenv('ROBOLECTRIC_DEPS_DIR')
+                if (localDeps && file(localDeps).exists()) {
                     systemProperty 'robolectric.offline', 'true'
-                    systemProperty 'robolectric.dependency.dir', localDeps.absolutePath
+                    systemProperty 'robolectric.dependency.dir', localDeps
                 }
                 testLogging {
                     events 'failed', 'standardOut', 'standardError'

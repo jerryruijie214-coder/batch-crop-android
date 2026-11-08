@@ -32,7 +32,7 @@
 ## 构建
 
 ```bash
-git clone https://github.com/<your-name>/batch-crop-android.git
+git clone https://github.com/jerryruijie214-coder/batch-crop-android.git
 cd batch-crop-android
 ./gradlew assembleDebug
 ```
